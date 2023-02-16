@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tela
+        {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+        }
+.disquete
+    {
+        osition: relative;
+        height: 100px;
+        left: -25px;
+        top: 425px;
+        animation: anima_disquete2 5s infinite alternate;
+        
+
+        
+    }
+    @keyframes anima_disquete 
+    {
+            0%   { rotate: 60deg; }
+            100% { rotate: 660deg;  } 
+            
+    }
+
+
+    .disquete2
+    {
+       position: relative;
+        height: 100px;
+        left: -25px;
+        top: 425px;
+        animation: anima_disquete2 5s infinite alternate;
+        
+        
+    }
+    @keyframes anima_disquete2 
+    {
+             0%   { rotate: 60deg; }
+            100% { rotate: 660deg;  } 
+            
+    }
+    </style>
+</head>
+<body style="background-image: url(Fundo.png);">
+    <div class="tela">
+<img src="disquete gif.gif" class="disquete">
+<img src="disquete gif.gif" class="disquete2">
+</div>
+</body>
+</html>
